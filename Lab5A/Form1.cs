@@ -17,5 +17,14 @@ namespace Lab5A
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Paint form method. Renders objects in views.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
