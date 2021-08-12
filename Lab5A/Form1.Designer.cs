@@ -49,6 +49,7 @@ namespace Lab5A
             this.colour_btn.TabIndex = 0;
             this.colour_btn.Text = "Colour";
             this.colour_btn.UseVisualStyleBackColor = true;
+            this.colour_btn.Click += new System.EventHandler(this.colour_btn_Click);
             // 
             // close_btn
             // 
@@ -58,6 +59,7 @@ namespace Lab5A
             this.close_btn.TabIndex = 1;
             this.close_btn.Text = "Close";
             this.close_btn.UseVisualStyleBackColor = true;
+            this.close_btn.Click += new System.EventHandler(this.close_btn_Click);
             // 
             // pictureBox1
             // 
@@ -74,6 +76,7 @@ namespace Lab5A
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(208, 90);
             this.trackBar1.TabIndex = 3;
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // Form1
             // 
@@ -87,6 +90,7 @@ namespace Lab5A
             this.Controls.Add(this.colour_btn);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
