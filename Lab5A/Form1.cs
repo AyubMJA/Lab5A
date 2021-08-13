@@ -16,10 +16,10 @@ namespace Lab5A
         Color currentColor;
 
         //Faucet vairables.
-        int faucetX1 = 78;
-        int faucetY1 = 135;
-        int faucetX2 = 78;
-        int faucetY2 = 349;
+        int faucetX1 = 214;
+        int faucetY1 = 250;
+        int faucetX2 = 214;
+        int faucetY2 = 645;
 
         //Bucket variables.
         int bucketX1 = 66;
